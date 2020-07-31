@@ -21,4 +21,4 @@ while opem == True:
         exit()
     elif numero != 1 and numero != 2 and numero != 3:
         print(interface.erro)
-        pass
+        
