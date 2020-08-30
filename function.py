@@ -1,21 +1,32 @@
 from math import pi
-def calcular_quadrado():
+def calcular_trapezio():
     #ENTRADA
-    x = float(input('''
+    bmaior = float(input('''
                 ===========================
-                digite a largura em metros: 
+                    digite a base MAIOR 
+                        em metros: 
                 ===========================
                             '''))
-    y = float(input('''
-                ==========================
-                digite a altura em metros: 
-                ==========================
+    bmenor = float(input('''
+                ===========================
+                    digite a base MENOR 
+                        em metros: 
+                ===========================
                             '''))
+    altura_trapezio = float(input('''
+                ===========================
+                        digite a ALTURA
+                          em metros: 
+                ===========================
+                            '''))
+    
 
     #PROCESSAMENTO E SAIDA
+    area_trapezio = ((bmaior + bmenor) * altura_trapezio)
+
     print(f'''
                 ============================
-                -=A area é de {(x)*(y):.2f} m²=-
+                -=A area é de {area_trapezio:.2f} m²=-
                 ============================
                             ''')
 

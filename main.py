@@ -14,7 +14,7 @@ while opem == True:
     numero = int(input())
 
     if numero == 1:
-        calcular_quadrado()
+        calcular_trapezio()
     elif numero == 2:
         calcular_circunferencia()
     elif numero == 3:

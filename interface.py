@@ -7,8 +7,7 @@ class interface():
     opção_1 = '''
 ==================================================
                 pressione 1 para calcular a
-                area de um quadrado ou
-                        retangulo
+                    area de um trapézio
 ==================================================
                               '''
     opção_2 = '''
